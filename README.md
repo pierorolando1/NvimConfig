@@ -136,6 +136,9 @@ Please feel free to edit or make any changes you deem necessary. For more inform
 
 * Github: [@ViktorBusk](https://github.com/ViktorBusk)
 
+**Piero Rolando**
+* Github: [@pierorolando1](https://github.com/pierorolando1)
+
 ## Acknowledgments
 
 * LunarVim: https://github.com/LunarVim/LunarVim
