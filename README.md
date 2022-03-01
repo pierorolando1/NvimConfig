@@ -40,14 +40,6 @@
 
 <img src=".utils/images/lsp.png?raw=true"></img>
 
-##### [NvChad theme: doom-chad](https://github.com/NvChad/nvim-base16.lua/blob/master/lua/hl_themes/doom-chad.lua)
-
-<img src=".utils/images/preview.png?raw=true"></img>
-
-##### [LunarVim theme: onedarker](https://github.com/LunarVim/onedarker.nvim)
-
-<img src=".utils/images/lsp_install.png?raw=true"></img>
-
 ## Installation
 **LunarChad** is a configured version of [LunarVim](https://github.com/LunarVim/LunarVim#install-in-one-command). For more information please read the LunarVim documentation at [lunarvim.org](https://www.lunarvim.org/). Make sure you have the release version of Neovim (0.6).
 ```sh
@@ -61,7 +53,7 @@ mv ~/.config/lvim/ ~/.config/lvim.old/
 Clone **LunarChad** to your lvim configuration folder located at `~/.config/lvim/`.
 
 ```sh
-git clone https://github.com/ViktorBusk/LunarChad.git ~/.config/lvim/
+git clone https://github.com/pierorolando1/NvimConfig.git ~/.config/lvim/
 ```
 Start LunarVim by entering `lvim` inside a terminal. Install the required plugins with the command `:PackerSync`.
 
