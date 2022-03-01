@@ -4,7 +4,7 @@ lvim.custom = {
   theme = "onedarker",
   -- TODO: Add option to use default NvChad mappings
   -- Maybe add option to provide a "chadrc" and/or "init" from an existing NvChad config
-  yank_highlight = false, -- Highlight after yanking text
+  yank_highlight = true, -- Highlight after yanking text
   doxygen_highlight = {
     enable = false, -- Doxygen highlights is still used if treesitter is not active in the current buffer
     bold_highlight = false,
@@ -18,7 +18,7 @@ lvim.custom = {
       bold_highlight = false,
     },
     cursor_line = false,
-    theme = "onedark" -- https://github.com/NvChad/nvim-base16.lua/tree/master/lua/hl_themes
+    theme = "javacafe" -- https://github.com/NvChad/nvim-base16.lua/tree/master/lua/hl_themes
   },
   statusline = {
     diagnostics = { enable = true },
@@ -44,6 +44,10 @@ lvim.builtin.terminal.active = true
 lvim.builtin.terminal.direction = "horizontal"
 lvim.builtin.terminal.size = 15
 lvim.builtin.terminal.shade_terminals = true
+
+lvim.builtin.notify.active = true
+
+lvim.keys.insert_mode["<c-h>"] = { [[copilot#Accept("\<CR>")]], { expr = true, script = true } }
 
 -- Change the timeoutlen for whichkey to show
 vim.opt.timeoutlen = 400

@@ -3,6 +3,7 @@ lvim.leader = "space"
 -- add your own keymapping
 lvim.keys.normal_mode["<C-s>"] = ":w<CR>" -- Save with Ctrl+s
 
+lvim.keys.normal_mode["<C-n>"] = ":NvimTreeToggle<CR>" -- Toggle NvimTree
 -- unmap a default keymapping
 
 -- Unmap toggleterm and use basic instead

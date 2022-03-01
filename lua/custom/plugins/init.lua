@@ -30,11 +30,35 @@ lvim.plugins = {
     config = function()
       require("custom.plugins.configs.bufferline")
     end
-    },
+  },
   {
     "famiu/feline.nvim",
     config = function()
       require("custom.plugins.configs.statusline")
     end
   },
+  -- Custom plugins
+  {
+    "Pocco81/AutoSave.nvim",
+    config = function ()
+      require("custom.plugins.configs.autosave")
+    end
+  },
+  {"github/copilot.vim"},
+
+  -- Rust tools
+  {'neovim/nvim-lspconfig'},
+  {
+    'simrat39/rust-tools.nvim',
+    config = function ()
+      require("custom.plugins.configs.rust-tools")
+    end
+  },
+  -- Flutter tools
+  {
+    'akinsho/flutter-tools.nvim',
+    config = function ()
+      require("custom.plugins.configs.flutter-tools")
+    end
+  }
 }

@@ -64,7 +64,7 @@ lvim.builtin.nvimtree = {
     },
     filters = {
       dotfiles = false,
-      --custom = { ".git", "node_modules", ".cache" },
+      custom = { ".git" }--"node_modules", ".cache" },
     },
   },
   show_icons = {
@@ -87,17 +87,17 @@ lvim.builtin.nvimtree = {
       renamed = "➜",
       staged = "✓",
       unmerged = "",
-      unstaged = "✗",
+      unstaged = "",
       untracked = "★",
    },
    folder = {
       -- disable indent_markers option to get arrows working or if you want both arrows and indent then just add the arrow icons in front            ofthe default and opened folders below!
       -- arrow_open = "",
       -- arrow_closed = "",
-      default = "",
-      empty = "", -- 
-      empty_open = "",
-      open = "",
+      default = "",
+      empty = "", -- 
+      empty_open = "",
+      open = "",
       symlink = "",
       symlink_open = "",
    },

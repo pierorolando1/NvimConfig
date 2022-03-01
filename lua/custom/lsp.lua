@@ -1,5 +1,5 @@
 -- generic LSP settings
-lvim.format_on_save = false
+lvim.format_on_save = true
 lvim.lsp.automatic_servers_installation = true
 
 lvim.lsp.diagnostics.signs = {
