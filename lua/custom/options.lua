@@ -18,7 +18,7 @@ lvim.custom = {
       bold_highlight = false,
     },
     cursor_line = false,
-    theme = "javacafe" -- https://github.com/NvChad/nvim-base16.lua/tree/master/lua/hl_themes
+    theme = "tokyodark" -- https://github.com/NvChad/nvim-base16.lua/tree/master/lua/hl_themes
   },
   statusline = {
     diagnostics = { enable = true },

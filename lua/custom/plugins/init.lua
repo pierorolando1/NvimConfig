@@ -60,5 +60,16 @@ lvim.plugins = {
     config = function ()
       require("custom.plugins.configs.flutter-tools")
     end
+  },
+  --[[
+  {
+    'kabouzeid/nvim-lspinstall',
+    config = function ()
+      local servers = require'lspinstall'.installed_servers()
+      for _, server in pairs(servers) do
+        require'lspconfig'[server].setup{}
+      end
+    end
   }
+  --]]
 }
